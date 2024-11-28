@@ -18,6 +18,7 @@ DB_PORT=5432
 ###### .gitignore
 ```
 .gitignore
+.dockerignore
 survey_group8/db_config.py
 __pycache__/
 .env
@@ -30,6 +31,8 @@ pip freeze > requirements.txt
 ```
 ###### .dockerignore
 ```
+.dockerignore
+.gitignore
 .env
 venv/
 Dockerfile
