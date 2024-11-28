@@ -68,3 +68,6 @@ docker exec -it <container_id_or_name> bash
 ```
 docker network ls
 ```
+```
+docker exec -it survey_app /bin/bash
+```
