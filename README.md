@@ -17,6 +17,7 @@ DB_PORT=5432
 #### git
 ###### .gitignore
 ```
+.gitignore
 survey_group8/db_config.py
 __pycache__/
 .env
