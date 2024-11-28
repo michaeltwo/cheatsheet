@@ -3,7 +3,7 @@
 ```
 jupyter nbconvert --to script example.ipynb
 ```
-######## .env
+###### .env
 ```
 DEBUG=False
 SECRET_KEY='django-insecure-j9q3mm6wpn0nw1d8h-dk4u-59t1wab@+5172+hwd%8me2md))='
