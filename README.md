@@ -31,7 +31,7 @@ pip freeze > requirements.txt
 ```
 .env
 venv/
-dockerfile
+Dockerfile
 .DS_Store
 ```
 ###### Dockfile
