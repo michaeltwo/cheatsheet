@@ -5,7 +5,7 @@ jupyter nbconvert --to script example.ipynb
 ```
 
 #### docker | podman
-###### docker Dockfile
+###### Dockfile
 ```
 docker build -t fountain0/survey_group8:v1 .
 ```
@@ -18,6 +18,7 @@ docker push
 ###### docker-compose.yml
 ```
 podman-compose up -d
+```
 ```
 podman-compose ps
 ```
