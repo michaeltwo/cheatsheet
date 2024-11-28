@@ -69,6 +69,7 @@ podman-compose logs web(web in docker-compose.yml)
 ```
 podman exec -it survey_app /bin/bash
 ```
+```
 docker network ls
 ```
 ```
