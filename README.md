@@ -25,7 +25,7 @@ __pycache__/
 ```
 
 #### docker | podman
-###### Build images
+###### requirements.txt
 ```
 pip freeze > requirements.txt
 ```
@@ -56,22 +56,23 @@ podman-compose up --build | -d
 podman-compose ps
 ```
 ```
-podman-compose down
+podman-compose down -v(del vols)
 ```
-```
-podman-compose logs web
-```
-
-#### docker log
 ```
 docker run -d --log-driver=json-file --log-opt max-size=10m --log-opt max-file=3 --name my-container -p 80:80 -v /path/to/html:/usr/share/nginx/html my-image
 ```
+
+#### docker diagnose logs & exec $ network 
 ```
-docker exec -it <container_id_or_name> bash
-```
-```
-docker network ls
+podman-compose logs web(web in docker-compose.yml)
 ```
 ```
 podman exec -it survey_app /bin/bash
 ```
+docker network ls
+```
+```
+docker network inspect network
+```
+
+script files refer to scripts
