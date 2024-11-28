@@ -55,7 +55,7 @@ podman-compose ps
 podman-compose down
 ```
 ```
-podman-compose log web
+podman-compose logs web
 ```
 
 #### docker log
