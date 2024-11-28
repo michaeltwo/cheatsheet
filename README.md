@@ -50,7 +50,7 @@ docker push fdeb2716ba46 docker.io/fountain0/survey_group8:latest
 ```
 ###### docker-compose.yml
 ```
-podman-compose up -d
+podman-compose up --build | -d
 ```
 ```
 podman-compose ps
