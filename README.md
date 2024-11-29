@@ -75,5 +75,8 @@ docker network ls
 ```
 docker network inspect network
 ```
+```
+docker push fountain0/survey_group8:tagname
+```
 
 script files refer to scripts
