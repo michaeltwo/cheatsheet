@@ -109,3 +109,5 @@ openshift/OKD
 ## Web
 python
 
+## commands
+helm install minio minio/minio --namespace minio --set rootUser=minioadmin --set rootPassword=minio123 --set persistence.size=10Gi --set service.type=LoadBalancer
