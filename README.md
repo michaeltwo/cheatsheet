@@ -80,3 +80,32 @@ docker push fountain0/survey_group8:tagname
 ```
 
 script files refer to scripts
+
+## baremetal
+Dell/HP
+IBM
+
+## Hypervisor
+xen
+esx
+openstack-Linux(for VM)
+OKD-fedora(for K8s nodes)
+
+## Windows
+Powershell : get-PackageSource nuget,choco,psgalley,scoop
+az
+
+## Linux
+bash
+
+## app
+vMware/Citrix
+k8s
+k3s
+minio
+openstack(KVM, QEMU, Libvirt)
+openshift/OKD
+
+## Web
+python
+
